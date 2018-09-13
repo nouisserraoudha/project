@@ -1,4 +1,7 @@
 
+body{
+    background: url('cover.png');
+}
 header{
     height: 80px;
     padding: 20px;
@@ -10,7 +13,11 @@ header{
     padding: 10px;
     
 }
-
+nav li  .active{
+    background-color: darkgray;
+    color: #000033;
+    text-decoration: none;
+}
 .nav a{
     text-decoration: none;
     color: white;
@@ -47,7 +54,7 @@ nav li a:focus, nav li a:active{
     text-decoration: none;
     
 }
-.btn-inscrip a:hover{ text-decoration: none; color: white;}
+.btn-inscrip a:hover, .btn-inscrip a:focus,.btn-inscrip a:active { text-decoration: none; color: white;}
 
 .contenu{
     position: absolute;
@@ -105,4 +112,41 @@ nav li a:focus, nav li a:active{
     
   
     
+}
+
+#inscription{
+    
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left:500px;
+    width: 30%;
+    height: 70%;
+    background-color: white;
+    padding: 10px;
+}
+
+@media(max-width:992px){
+   #inscription{
+    
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    left:300px;
+    width: 40%;
+    height: 85%;
+   
+} 
+}
+@media(max-width:992px){
+   #inscription{
+    
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    left:70px;
+    width: 70%;
+    height: 85%;
+   
+} 
 }

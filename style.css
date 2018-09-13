@@ -1,0 +1,108 @@
+
+header{
+    height: 80px;
+    padding: 20px;
+    
+}
+.navbar-custom{
+    height: 80px; 
+    background: #000033;
+    padding: 10px;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'bitter';
+    font-size: 20px;
+    margin-left: 10px;
+}
+nav li a:focus, nav li a:active{
+    background-color: darkgray;
+    color: #000033;
+    text-decoration: none;
+}
+
+.inscrip{
+    position: absolute;
+    top:15px;
+    right: 50px;
+}
+.btn-inscrip{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    background-color: #CC0000;
+   
+    margin-left: 10px;
+}
+.btn-inscrip a{
+     color: white;
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    
+}
+.btn-inscrip a:hover{ text-decoration: none; color: white;}
+
+.contenu{
+    position: absolute;
+    margin: auto;
+    right: 200px;
+    top: 200px;
+    text-align: center;
+}
+.seperator{
+    border: 1px solid #000033;
+    background-color: #000033;
+    width: 500px;
+    height: 3px;
+    margin: 30px;
+}
+@media (max-width:992px){
+   
+    .inscrip{
+    position: absolute;
+    top:60px;
+}
+    .navbar-custom{
+    height: 120px; 
+   
+    
+}
+     .contenu{
+    position: absolute;
+    
+    right: 10px;
+   
+}
+}
+@media (max-width:768px){
+   
+    .inscrip{
+    position: absolute;
+    left: 15px;
+        top:30px
+}
+    .navbar-custom{
+    height: 90px; 
+   
+    
+}
+    .contenu{
+    position: absolute;
+    left: 2px;
+    right: 5px;
+   
+}
+    .seperator{
+        width:90%;
+    }
+    
+  
+    
+}
